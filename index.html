@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alok Pal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Alok Pal</span>
+                </h1>
+                <p class="hero-subtitle">Frontend Developer & UI/UX Designer</p>
+                <p class="hero-description">
+                    I create beautiful, responsive web applications with modern technologies.
+                    Passionate about clean code and exceptional user experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="Dp.png" alt="Profile Picture" class="image-placeholder" >
+                    <!-- <i class="fas fa-user"></i> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate developer with experience in creating web applications
+                        using modern technologies. I love turning complex problems into simple,
+                        beautiful designs.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new technologies,
+                        contributing to open source projects, or sharing knowledge with the
+                        developer community.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <!-- <div class="stat">
+                            <h3>100+</h3>
+                            <p>Happy Clients</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <!-- <span class="skill-item">React</span>
+                        <span class="skill-item">Vue.js</span>
+                        <span class="skill-item">TypeScript</span> -->
+                    </div>
+                </div>
+                <!-- <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Node.js</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Express</span>
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">REST APIs</span>
+                    </div> -->
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Canva</span>
+                        <span class="skill-item">Framer</span>
+                        <span class="skill-item">Figma</span>
+                        <span class="skill-item">Photoshop</span>
+                        <!-- <span class="skill-item">Linux</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Saraah Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Saraah.png" alt="Saraah Project Screenshot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Saraah - Your Ride Fair Comparison App</h3>
+                        <p>A ride fare comparison platform that helps users compare real-time prices from services like Uber, Ola, Rapido, etc., to choose the cheapest or best ride option instantly.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://saraah-ride.vercel.app/" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Commerce Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="BZS.png" alt="Quick Commerce Screenshot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Quick Commerce Comparison</h3>
+                        <p>This project explores how India's leading quick commerce apps — Zepto, Blinkit, and Swiggy Instamart — differ in pricing, hidden charges, and user experience.</p>
+                        <div class="project-tech">
+                            <span>UI/UX</span>
+                            <span>Research</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.behance.net/gallery/230172257/Are-Quick-Commerce-Platforms-Profitable-or-a-Trap" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Donut Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Donut.png" alt="Donut Project Screenshot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Donuts</h3>
+                        <p>This project features a visually engaging banner design concept for a donut or dessert brand, created to promote different flavors in a modern, vibrant, and scroll-friendly layout. Each section is centered around a unique donut flavor—Blueberry, Green Apple, and Caramel—with carefully chosen background colors and design elements that reflect the taste and mood of each variety.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.figma.com/proto/d3NibhiiNTlVe3DjhyaMX7/IceCream-Prototype?page-id=31%3A2&node-id=34-2&p=f&viewport=659%2C31%2C0.15&t=86sBMORVSmPNsVS3-1&scaling=scale-down&content-scaling=fixed" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects.
+                        Feel free to reach out if you'd like to collaborate!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:alokp5491@gmail.com">alokp5491@gmail.com</a>
+                            <!-- <span>your.email@example.com</span> -->
+                        </div>
+                        <div class="contact-method">   
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919319368847">+91 9319368847</a>
+                            <!-- <span>+91 9319368847</span> -->
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ghaziabad, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alok-pal08/" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/alokp5491" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/itz_alokpal/" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Alok Pal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
