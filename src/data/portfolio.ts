@@ -50,9 +50,9 @@ export const skillGroups: {
     items: ['React.js', 'TypeScript', 'HTML', 'CSS'],
   },
   {
-    title: 'Backend',
-    icon: 'Server',
-    items: ['Node.js', 'Express.js', 'REST APIs', 'MVC Architecture', 'System Design'],
+  title: 'Backend',
+  icon: 'Server',
+  items: ['Node.js', 'Express.js', 'REST APIs', 'MVC Architecture'], // System Design removed
   },
   {
     title: 'Database',
@@ -63,6 +63,11 @@ export const skillGroups: {
     title: 'DevOps',
     icon: 'Container',
     items: ['Docker', 'Kubernetes', 'CI/CD', 'GitHub Actions'],
+  },
+  {
+  title: 'Currently Learning',
+  icon: 'BookOpen', // or whatever icon fits your set
+  items: ['System Design'],
   },
   {
     title: 'Tools',
